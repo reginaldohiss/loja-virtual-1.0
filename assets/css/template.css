@@ -1,0 +1,118 @@
+body {
+	margin:0;
+}
+th {
+	text-align:left;
+}
+.topo {
+	height:100px;
+	text-align:center;
+}
+.menu {
+	height:50px;
+	background-color:#EEE;
+}
+.menuint {
+	width:100%;
+	max-width:800px;
+	margin:auto;
+}
+.menu ul {
+	margin:0;
+	padding:0;
+}
+.menu li {
+	list-style: none;
+	float:left;
+	height:50px;
+	line-height:50px;
+	padding-left:10px;
+	padding-right:10px;
+	text-transform: uppercase;
+	cursor:pointer;
+}
+.menu li:hover {
+	background-color:#CCC;
+}
+.menu a {
+	color:#000;
+}
+.container {
+	width:100%;
+	max-width:800px;
+	min-height:300px;
+	margin:auto;
+}
+.rodape {
+	height:100px;
+	background-color:#DDD;
+}
+
+.produto {
+	width:176px;
+	height:230px;
+	margin:10px;
+	float:left;
+	text-align:center;
+	border:2px solid #EEEEEE;
+	color:#000;
+}
+.produto:hover {
+	border:2px solid #CCCCCC;
+}
+
+.produto_foto {
+	width:300px;
+	height:300px;
+	background-color:#EEEEEE;
+	margin-top:20px;
+	margin-bottom:20px;
+	float:left;
+}
+.produto_info {
+	float:left;
+	margin-left:20px;
+}
+
+.contato input[type=text],
+.contato input[type=email],
+.contato textarea {
+	width:400px;
+	border:1px solid #CCC;
+	padding:10px;
+	font-size:13px;
+}
+.contato textarea {
+	height:200px;
+}
+.carrinho {
+	width:100px;
+	height:50px;
+	float:right;
+	text-align:right;
+}
+.erro {
+	padding:15px;
+	border:1px solid #000;
+	background-color:#EEE;
+	margin-bottom:10px;
+}
+.pedido_produto {
+	width:100px;
+	height:180px;
+	padding:15px;
+	float:left;
+	border:2px solid #000;
+	margin-right:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
